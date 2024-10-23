@@ -1,0 +1,43 @@
+/* Custom Fonts and Colors */
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+    background-color: #f4f4f9;
+}
+
+/* Home Section */
+#home {
+    position: relative;
+    color: #fff;
+}
+.highlight-text {
+    color: #ff4081;
+}
+
+/* About Section */
+#about img {
+    border: 5px solid #ff4081;
+}
+
+/* Project Card Hover Effects */
+.project-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.project-card:hover .card-title {
+    color: #ff4081;
+}
+
+/* Footer */
+footer {
+    background-color: #1b1b1b;
+    color: #fff;
+    background: url('file:///C:/Users/HomePC/Desktop/my%20Python%20projects/html%20and%20css%20basics/Bootstrap2/background.jpg') no-repeat center center/cover;
+
+}
+.social-links i {
+    font-size: 24px;
+}
+.social-links i:hover {
+    color: #ff4081;
+}
